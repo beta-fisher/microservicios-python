@@ -1,0 +1,5 @@
+CREATE DATABASE nombre_base_datos;
+CREATE USER 'usuario'@'localhost' IDENTIFIED BY 'contraseña';
+GRANT ALL PRIVILEGES ON nombre_base_datos.* TO 'usuario'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
